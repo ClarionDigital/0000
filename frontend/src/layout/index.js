@@ -217,7 +217,7 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            FireZAP - Firecloud.Solutions
+            Multgestor - Sistema de Multi Atendimentos
           </Typography>
           {user.id && <NotificationsPopOver />}
 
