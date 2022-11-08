@@ -217,7 +217,7 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            Multgestor - Sistema de Multi Atendimentos
+            Sistema de Multi Atendimentos via whatsapp
           </Typography>
           {user.id && <NotificationsPopOver />}
 
