@@ -83,6 +83,13 @@ class Message extends Model<Message> {
 
   @BelongsTo(() => Contact, "contactId")
   contact: Contact;
+  
+  @ForeignKey(() => User)
+  @Column
+  userId: number;
+
+  @BelongsTo(() => Contact, "userId")
+  user: Contact;
 }
 
 export default Message;
