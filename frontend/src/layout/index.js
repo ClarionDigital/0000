@@ -217,7 +217,7 @@ const LoggedInLayout = ({ children }) => {
             noWrap
             className={classes.title}
           >
-            Sistema de Multi Atendimentos via whatsapp
+            Magos Chat - Sistema de Multi Atendimentos via whatsapp
           </Typography>
           {user.id && <NotificationsPopOver />}
 
